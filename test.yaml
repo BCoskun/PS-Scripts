@@ -1,0 +1,14 @@
+key: f479fac3-eb93-46b4-9265-8f8ac56da351
+git_prefix: https://abc.com
+projects:
+  CIGNA-PDP:
+    app-guid: f362c1cc-8208-48f6-aeb4-fba854e3a4e7
+    domain-name: "APA"
+    repositories: 
+       - "APA/abc.git"
+  OTC:
+    app-guid: f5d0d4c3-1d33-4668-b796-649970d93f07
+    domain-name: "SBA-MIRAMAR-OTC"
+    repositories: 
+      - "SBA/OTC/abc.git"
+      - "SBA/OTC/cde.git"

@@ -1,0 +1,19 @@
+{
+    "key" :"48703a4f-4402-4e18-8e31-35db322ed11e",
+    "git_prefix" : "https://abc.com",
+    "projects" : [
+        {
+            "name" : "CIGNA-PDP",
+            "repositories" : [
+                "APA/abc.git"
+            ]
+        },
+        {
+            "name" : "OTC",
+            "repositories" : [
+                "SBA/OTC/abc.git",
+                "SBA/OTC/cde.git"
+            ]
+        }
+    ]
+}
