@@ -1,12 +1,12 @@
 Install-Module -Name powershell-yaml
 
-$a  = (Get-Content .\test.yaml | ConvertFrom-Yaml)
+$yaml_file  = (Get-Content .\test.yaml | ConvertFrom-Yaml)
 
-$c =  $a.projects | ForEach-Object { $_ } 
-foreach ($item in $c.Keys) {
-    $c[$item].repositories = $c[$item].repositories | ForEach-Object { $a.git_prefix  + "/" + $_ }    
+$yaml_projects =  $yaml_file.projects
+foreach ($key in $yaml_projects.Keys) {
+    $yaml_projects[$key].repositories = $yaml_projects[$key].repositories | ForEach-Object { $yaml_file.git_prefix  + "/" + $_ }    
 }
 
-foreach ($item in $c.Keys) {
-    $c[$item]
+foreach ($key in $yaml_projects.Keys) {
+    $yaml_projects[$key]
 }

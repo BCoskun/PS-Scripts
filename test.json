@@ -3,7 +3,7 @@
     "git_prefix" : "https://abc.com",
     "projects" : [
         {
-            "name" : "CIGNA-PDP",
+            "name" : "PDP",
             "repositories" : [
                 "APA/abc.git"
             ]

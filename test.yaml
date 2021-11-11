@@ -8,7 +8,7 @@ projects:
        - "APA/abc.git"
   OTC:
     app-guid: f5d0d4c3-1d33-4668-b796-649970d93f07
-    domain-name: "SBA-MIRAMAR-OTC"
+    domain-name: "SBA-OTC"
     repositories: 
       - "SBA/OTC/abc.git"
       - "SBA/OTC/cde.git"
